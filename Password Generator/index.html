@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+
+    <div class="websiteContent">
+        <h2>Password Generator</h2>
+        <p>Set the parameters</p>
+        <form>
+            <p style="text-align: left;">Password Length:* </p>
+            <input type="number" value="12" id="passwordLength">
+            <nobr>
+                <input type="checkbox" checked="true" id="lowerCase" style="width: auto;">
+                <label for="lowerCase">Lowercase letters.</label>
+            </nobr>
+            <br>
+            <nobr>
+                <input type="checkbox" checked="true" id="specialChar" style="width: auto;">
+                <label for="specialChar">Special Characters.</label>
+            </nobr>
+            <br>
+            <nobr>
+                <input type="checkbox" checked="true" id="uppercaseChar" style="width: auto;">
+                <label for="uppercaseChar">Uppercase letters.</label>
+            </nobr>
+            <br>
+            <nobr>
+                <input type="checkbox" checked="true" id="numbers" style="width: auto;">
+                <label for="numbers">Numbers</label>
+            </nobr>
+            <br>
+            <input type="button" value="Generate" id="submit" onclick="getParameters();" style="width: 101%;">
+            <textarea id="password" rows="8"></textarea>
+        </form>
+        <span>Created by Vinicius Braida.</span>
+    </div>
+
+</body>
+<script src="javascript/passGeneratev2.js"></script>
+</html>

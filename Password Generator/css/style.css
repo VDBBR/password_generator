@@ -1,0 +1,28 @@
+body {
+    background-color: #1f1f1f;
+    font-family: sans-serif;
+}
+
+.websiteContent {
+    padding: 50px;
+    width: 45%;
+    height: 470px;
+    border-style: solid;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+.websiteContent input{
+    width: 100%;
+    margin: 10px 0;
+}
+.websiteContent textarea {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    resize: none;
+    overflow-x: hidden;
+}
